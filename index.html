@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
+<h1>Student Accommodation Hub</h1>
+<h4>Your New Home Awaits!</h4>
 <body
     <ul>
         <li><a href="index.html">Home</a></li>
@@ -12,14 +14,13 @@
         <li><a href="contactus.html">Contact us</a></li>
       </ul>
       
-      <!--This is a registration form-->
+      <!--This is a user page-->
 <form action="/action.php">
     <fieldset>
-      <legend>User Registration</legend>
-      <label>Username:</label>
-      <input type="text" required /></br>
+      <legend>User Page</legend>
+      
       <label>First Name</label>
-      <input type="text" required /></br>-+
+      <input type="text" required /></br>
       <label>Last Name</label>
       <input type="text" required /></br>
       <label>Email Address:</label>
@@ -38,19 +39,41 @@
           <option>Male</option>
           </select></br>
           <label>Province</label>
-          <select>
-            <option>-- Please select --</option>
-            <option>Eastern Cape</option>
-            <option>Free State</option>
-            <option>Gauteng</option>
-            <option>Kwazulu-Natal</option>
-            <option>Limpopo</option>
-            <option>Mpumalanga</option>
-            <option>North West</option>
-            <option>Northern Cape</option>
-            <option>Western Cape</option>
-        </select>
-          <input type="button" value="Register" />
+     <select>
+             <option>-- Please select --</option>
+             <option>Eastern Cape</option>
+             <option>Free State</option>
+              <option>Gauteng</option>
+              <option>Kwazulu-Natal</option>
+              <option>Limpopo</option>
+              <option>Mpumalanga</option>
+              <option>North West</option>
+              <option>Northern Cape</option>
+              <option>Western Cape</option>
+     </select><br>
+     <label>Institution Name:</label>
+     <input type="text" required /></br>
+     <label>Funding</label>
+      <select>
+               <option>--Please select--</option>
+              <option>Self-Funded</option>
+              <option>Bursary</option>
+              <option>Other</option>
+      </select><br>
+              <label>Specify if funding option is Other:</label>
+              <input type="text" required /></br>
+      <label>Price Range</label>
+      <select>
+        <option>--Please select--</option>
+        <option>R1500-R2000</option>
+        <option>R2100-R2800</option>
+        <option>R2900-R3700</option>
+        <option>R3800-R5000</option>
+
+      </select>
+
+        
+          <input type="button" value="Search" />
           </fieldset>
 
           <!--Header Information starts Here-->
